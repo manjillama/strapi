@@ -603,3 +603,4 @@ const buildMutationTypeDef = ({ model, action }, ctx) => {
 };
 
 module.exports = buildShadowCrud;
+module.exports.buildAssocResolvers = buildAssocResolvers;
